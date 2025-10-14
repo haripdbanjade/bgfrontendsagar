@@ -54,8 +54,7 @@ export default function RootLayout({ children }) {
                 <button
                   onClick={() =>
                     window.open(
-                      'https://www.funxxyfe51.com/#/pages/login/register?invitationCode=5097269017',
-                      '_blank'
+                      'https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017'
                     )
                   }
                   className="bg-red-600 hover:bg-red-700 px-4 py-2 rounded-md text-white font-semibold transition-shadow shadow-md text-sm hidden md:inline-block"

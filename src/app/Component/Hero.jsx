@@ -76,7 +76,7 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center md:justify-start">
            <a
-  href="https://www.funxxyfe51.com/#/pages/login/register?invitationCode=5097269017"
+  href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
   target="_blank"
   rel="noopener noreferrer"
   className="bg-red-600 px-6 py-3 rounded-lg text-white font-semibold shadow-lg hover:bg-red-700 transition w-full sm:w-auto text-center"
@@ -84,14 +84,15 @@ export default function Hero() {
   Play Now
 </a>
 
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://youtube.com/watch?v=iRAU3jgKkVQ"
-              className="border border-red-500 px-6 py-3 rounded-lg text-white font-semibold hover:bg-red-500 transition text-center w-full sm:w-auto"
-            >
-              Watch Demo
-            </a>
+          <a
+  target="_blank"
+  rel="noopener noreferrer"
+  href="/images/video.mp4"   
+  className="border border-red-500 px-6 py-3 rounded-lg text-white font-semibold hover:bg-red-500 transition text-center w-full sm:w-auto"
+>
+  Watch Demo
+</a>
+
           </div>
         </div>
 
