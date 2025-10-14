@@ -84,14 +84,16 @@ export default function Hero() {
   Play Now
 </a>
 
-          <a
+
+<a
+  href="/videos/video.mp4"
   target="_blank"
   rel="noopener noreferrer"
-  href="/images/video.mp4"   
   className="border border-red-500 px-6 py-3 rounded-lg text-white font-semibold hover:bg-red-500 transition text-center w-full sm:w-auto"
 >
-  Watch Demo
+  Watch Video
 </a>
+
 
           </div>
         </div>
