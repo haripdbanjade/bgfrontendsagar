@@ -12,7 +12,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-12">
         {/* About */}
         <div>
-          <h2 className="text-2xl font-bold mb-4 text-white tracking-wide">GameVerse</h2>
+          <h2 className="text-2xl font-bold mb-4 text-white tracking-wide">bg678</h2>
           <p className="text-sm leading-relaxed text-gray-400">
             Dive into the world of gaming with GameVerse — where innovation meets passion.
             We bring together players, creators, and dreamers under one digital universe.
@@ -92,8 +92,8 @@ export default function Footer() {
         <p>
           © 2025{' '}
           <span className="font-semibold">
-            <span className="text-red-500">Game</span>
-            <span className="text-white">Verse</span>
+            <span className="text-red-500">bg</span>
+            <span className="text-white">678</span>
           </span>
           . All rights reserved.
         </p>

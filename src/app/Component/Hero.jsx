@@ -65,8 +65,8 @@ export default function Hero() {
         {/* Left content */}
         <div className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start">
           <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
-            <span className="text-red-500">Game</span>
-            <span className="text-white">Verse</span>
+            <span className="text-red-500">bg</span>
+            <span className="text-white">678</span>
           </h1>
 
           <p className="mt-5 text-slate-300 max-w-md sm:max-w-lg text-base sm:text-lg">
