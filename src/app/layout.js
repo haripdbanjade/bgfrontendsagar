@@ -94,7 +94,7 @@ export default function RootLayout({ children }) {
               <button
                 onClick={() =>
                   window.open(
-                    'https://www.funxxyfe51.com/#/pages/login/register?invitationCode=5097269017',
+                    'https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017',
                     '_blank'
                   )
                 }
