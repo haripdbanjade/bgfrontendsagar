@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
                 className="transition-transform duration-300 group-hover:scale-105"
               />
               <span className="text-3xl font-bold text-red-500 group-hover:text-red-400 transition-colors duration-200">
-                Game<span className="text-white">Verse</span>
+                bg<span className="text-white">678</span>
               </span>
             </Link>
 
