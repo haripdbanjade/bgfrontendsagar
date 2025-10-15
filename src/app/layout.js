@@ -26,19 +26,20 @@ export default function RootLayout({ children }) {
         {/* ✅ Navbar */}
         <nav className="fixed top-0 left-0 w-full z-50 bg-black/70 backdrop-blur-md border-b border-slate-800 shadow-md">
           <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between">
-            {/* ✅ Left: Logo */}
-            <Link
-              href="/"
-              className="flex items-center gap-2 cursor-pointer group -ml-1"
-            >
-              <IoGameControllerOutline className="w-8 h-8 text-red-500 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110" />
-              <span className="text-[1.9rem] font-extrabold tracking-wide">
-                <span className="text-red-500 group-hover:text-red-400 transition-colors duration-200">
-                  BG
-                </span>
-                <span className="text-white">678</span>
-              </span>
-            </Link>
+            
+<Link
+  href="/"
+  className="flex items-center gap-3 cursor-pointer group -ml-1"
+>
+  <IoGameControllerOutline className="w-10 h-10 sm:w-12 sm:h-12 text-red-500 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110" />
+  <span className="text-[2rem] sm:text-[2.4rem] font-extrabold tracking-wide">
+    <span className="text-red-500 group-hover:text-red-400 transition-colors duration-200">
+      BG
+    </span>
+    <span className="text-white">678</span>
+  </span>
+</Link>
+
 
             {/* ✅ Center: Navigation Links */}
             <div className="hidden md:flex items-center gap-10 text-sm font-medium text-slate-300">
