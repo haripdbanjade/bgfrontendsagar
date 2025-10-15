@@ -84,14 +84,14 @@ export default function SpinWheel() {
   return (
     <section className="bg-[#0b0e15] flex flex-col items-center justify-center min-h-[700px] py-10 px-4 relative overflow-hidden">
       {/* Confetti animation */}
-      {showConfetti && (
+      {/* {showConfetti && (
         <div className="absolute inset-0 z-10 pointer-events-none animate-pulse">
           <div className="absolute top-10 left-10 text-5xl">🎊</div>
           <div className="absolute top-20 right-20 text-5xl">🎉</div>
           <div className="absolute bottom-10 left-1/3 text-5xl">🎈</div>
           <div className="absolute bottom-20 right-1/4 text-5xl">🎊</div>
         </div>
-      )}
+      )} */}
 
       <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center relative z-20">
         {/* Left Section */}
@@ -147,7 +147,7 @@ export default function SpinWheel() {
           {/* How to Play Section */}
           <div className="mt-8 text-sm text-slate-400 max-w-md">
             <h3 className="text-lg font-semibold text-white mb-2">
-              📘 How to Play:
+               How to Play:
             </h3>
             <ul className="list-disc list-inside space-y-1">
               <li>Click the <span className="text-green-400 font-semibold">SPIN</span> button to start.</li>
