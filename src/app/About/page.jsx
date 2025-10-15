@@ -39,7 +39,7 @@ export default function About() {
                             Email Us
                         </a>
                         <a
-                            href="https://bg678.com"
+                            href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition"
@@ -51,7 +51,7 @@ export default function About() {
                     <div className="text-gray-400 text-sm md:text-base">
                         Follow us:
                         <a
-                            href="https://twitter.com/Gameverse"
+                            href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
                             className="text-red-400 hover:underline mx-2"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -59,7 +59,7 @@ export default function About() {
                             Twitter
                         </a>|
                         <a
-                            href="https://tiktok.com/@Gameverse"
+                            href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
                             className="text-red-400 hover:underline mx-2"
                             target="_blank"
                             rel="noopener noreferrer"
@@ -67,7 +67,7 @@ export default function About() {
                             TikTok
                         </a>|
                         <a
-                            href="https://linkedin.com/company/Gameverse"
+                            href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
                             className="text-red-500 hover:underline mx-2"
                             target="_blank"
                             rel="noopener noreferrer"
