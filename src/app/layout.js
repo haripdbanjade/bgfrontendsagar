@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
             {/* ✅ Center: Navigation Links */}
             <div className="hidden md:flex items-center gap-10 text-sm font-medium text-slate-300">
               <Link
-                href="#about"
+                href="/About"
                 className="hover:text-red-400 focus:text-red-400 transition"
               >
                 About
@@ -112,7 +112,7 @@ export default function RootLayout({ children }) {
           {menuOpen && (
             <div className="md:hidden bg-black/90 backdrop-blur-md border-t border-slate-800 px-6 py-5 text-slate-200 flex flex-col gap-4 text-center animate-fadeIn">
               <Link
-                href="#about"
+                href="/About"
                 onClick={() => setMenuOpen(false)}
                 className="hover:text-red-400 transition"
               >

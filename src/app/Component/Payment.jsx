@@ -13,7 +13,6 @@ export default function PaymentLicense() {
           <div className="flex items-center gap-6 flex-wrap mb-8">
             <Image src="/images/Google.png" alt="GPay" width={60} height={40} />
             <Image src="/images/Paytm.png" alt="PayTM" width={80} height={40} />
-            <Image src="/images/phone.png" alt="PhonePe" width={80} height={60} />
             <Image src="/images/upi.png" alt="UPI" width={50} height={30} />
           </div>
         </div>
