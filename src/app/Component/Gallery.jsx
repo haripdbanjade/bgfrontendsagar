@@ -11,7 +11,7 @@ const liveData = [
   { id: 3, user: 'Mem***LPA', amount: '₹5,250.00', game: 'Treasures of Aztec', avatar: '/images/10.jpg', gameImg: '/images/9.jpg' },
   { id: 4, user: 'Mem***QWE', amount: '₹950.00', game: 'Rummy Master', avatar: '/images/8.jpg', gameImg: '/images/10.jpg' },
   { id: 5, user: 'Mem***XYZ', amount: '₹1,200.00', game: 'Blackjack Pro', avatar: '/images/7.jpg', gameImg: '/images/11.jpg' },
-  { id: 6, user: 'Mem***A1B', amount: '₹3,600.00', game: 'Poker Royale', avatar: '/images/4.jpg', gameImg: '/images/12.jpg' },
+  { id: 6, user: 'Mem***A1B', amount: '₹3,600.00', game: 'Poker Royale', avatar: '/images/5.jpg', gameImg: '/images/12.jpg' },
 ];
 
 const topEarners = [
