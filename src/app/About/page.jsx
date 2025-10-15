@@ -5,32 +5,75 @@ export default function About() {
         <>
             <Head>
                 <title>About Us | bg678</title>
-                <meta name="description" content="GameVerse is a next-gen gaming marketing agency helping developers and studios connect with players worldwide." />
+                <meta
+                    name="description"
+                    content="bg678 is a next-gen gaming marketing agency helping developers and studios connect with players worldwide."
+                />
             </Head>
 
             <main className="bg-black text-gray-100 min-h-screen px-6 py-16">
-          
+                {/* Hero Section */}
                 <section className="mb-20 text-center max-w-3xl mx-auto">
-                    <h2 className="text-3xl font-semibold text-white mb-6">Why bg678?</h2>
-                    <p className="text-gray-400 text-lg">
-                        We're not just marketers — we're players, fans, and insiders. We understand what gamers want and how to reach them. Whether you're an indie dev or a AAA studio, we bring the passion and experience to elevate your launch.
+                    <h1 className="text-4xl md:text-5xl font-extrabold text-white mb-6">
+                        Why Choose <span className="text-red-500">BG678</span>?
+                    </h1>
+                    <p className="text-gray-400 text-lg md:text-xl leading-relaxed">
+                        We’re not just marketers — we’re players, fans, and insiders. We know what gamers want and how to reach them. Whether you’re an indie dev or a AAA studio, we bring passion and experience to elevate your launch.
                     </p>
                 </section>
 
-                <section className="bg-gray-900 p-8 rounded-lg text-center max-w-2xl mx-auto">
-                    <h2 className="text-2xl font-bold text-white mb-4">Let’s Build Something Epic</h2>
-                    <p className="text-gray-300 mb-6">
+                {/* Call to Action Section */}
+                <section className="bg-gray-900 p-10 md:p-16 rounded-xl text-center max-w-3xl mx-auto shadow-lg shadow-black/40 transition-transform hover:scale-105">
+                    <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+                        Let’s Build Something Epic
+                    </h2>
+                    <p className="text-gray-300 mb-6 text-lg md:text-xl">
                         Ready to take your game to the next level? Contact us today and let’s make it legendary.
                     </p>
-                    <div className="space-y-2">
-                        <a href="mailto:contact@gameverse.com" className="block text-blue-400 hover:underline">contact@bg678.com</a>
-                        <a href="https://gameverse.com" className="block text-blue-400 hover:underline"><www className="bg678"></www>.com</a>
-                        <div className="mt-2 text-gray-400">
-                            Follow us:
-                            <a href="https://twitter.com/Gameverse" className="text-blue-400 hover:underline mx-1">Twitter</a> |
-                            <a href="https://tiktok.com/@Gameverse" className="text-blue-400 hover:underline mx-1">TikTok</a> |
-                            <a href="https://linkedin.com/company/Gameverse" className="text-blue-400 hover:underline mx-1">LinkedIn</a>
-                        </div>
+
+                    <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
+                        <a
+                            href="mailto:contact@bg678.com"
+                            className="px-6 py-3 bg-red-600 hover:bg-red-500 rounded-lg font-semibold transition"
+                        >
+                            Email Us
+                        </a>
+                        <a
+                            href="https://bg678.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-6 py-3 bg-gray-800 hover:bg-gray-700 rounded-lg font-semibold transition"
+                        >
+                            Visit Our Website
+                        </a>
+                    </div>
+
+                    <div className="text-gray-400 text-sm md:text-base">
+                        Follow us:
+                        <a
+                            href="https://twitter.com/Gameverse"
+                            className="text-red-400 hover:underline mx-2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Twitter
+                        </a>|
+                        <a
+                            href="https://tiktok.com/@Gameverse"
+                            className="text-red-400 hover:underline mx-2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            TikTok
+                        </a>|
+                        <a
+                            href="https://linkedin.com/company/Gameverse"
+                            className="text-red-500 hover:underline mx-2"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            LinkedIn
+                        </a>
                     </div>
                 </section>
             </main>

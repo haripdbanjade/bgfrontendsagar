@@ -2,9 +2,12 @@
 
 import Image from "next/image";
 import Slider from "react-slick";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from "react";
+
+import { Volume2Icon } from "lucide-react";
 
 export default function Hero() {
   const sliderImages = [
@@ -46,69 +49,83 @@ export default function Hero() {
   }, [fakeWins.length]);
 
   return (
-    <header className="pt-12 pb-16 bg-gradient-to-b from-slate-900 to-black relative overflow-hidden px-9  sm:px-6 lg:px-8">
-      {/* Responsive fakeWins notification */}
-      <div className="mx-auto max-w-3xl mb-8 px-2 sm:px-0">
-        <div className="bg-slate-800 border border-slate-700 text-white px-4 py-2 sm:px-5 sm:py-3 rounded-full text-xs sm:text-sm flex flex-wrap gap-1 sm:gap-2 justify-center sm:justify-start items-center shadow-lg animate-fade-in-out transition-all duration-500 max-w-full sm:max-w-max mx-auto sm:mx-0">
-          <span className="text-yellow-400 font-semibold truncate max-w-[100px] sm:max-w-none">
-            {fakeWins[currentWin].name}
-          </span>
-          <span className="text-slate-300">just won</span>
+    <header className="pt-10 pb-16 bg-slate-900 to-black relative overflow-hidden px-6 sm:px-8">
+     
+   
+<div className="w-[96%] mx-auto mt-3 flex items-center justify-center rounded-full bg-slate-900 shadow-lg overflow-hidden border border-yellow-600">
+  <div className="flex-1 bg-slate-900 py-1.5 px-3">
+    <p className="text-[13px] sm:text-sm text-emerald-50 whitespace-nowrap overflow-hidden animate-marquee font-medium tracking-wide">
+      We've recently received feedback from users that some domains are inaccessible. We've implemented optimizations to fix this issue.
+    </p>
+  </div>
+
+
+</div>
+      <div className="mx-auto max-w-3xl mt-8 mb-10 flex justify-center">
+        <div className="bg-slate-800 border border-slate-700 text-white px-5 py-2.5 rounded-full text-xs sm:text-sm flex flex-wrap gap-2 justify-center items-center shadow-md animate-fade-in-out transition-all duration-500">
+          <span className="text-yellow-400 font-semibold">{fakeWins[currentWin].name}</span>
+          <span className="text-slate-300">won</span>
           <span className="text-yellow-500 font-bold">{fakeWins[currentWin].amount}</span>
-          <span className="text-slate-400 truncate max-w-[120px] sm:max-w-none">
-            in {fakeWins[currentWin].game}
-          </span>
+          <span className="text-slate-400">in {fakeWins[currentWin].game}</span>
         </div>
       </div>
 
+      {/* 🧠 Main Hero Content */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
+        
         {/* Left content */}
         <div className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start">
-          <h1 className="text-4xl sm:text-5xl font-extrabold leading-tight">
-            <span className="text-red-500">bg</span>
+          <h1 className="text-5xl sm:text-6xl font-extrabold leading-tight tracking-wide">
+            <span className="text-red-600">BG</span>
             <span className="text-white">678</span>
           </h1>
 
-          <p className="mt-5 text-slate-300 max-w-md sm:max-w-lg text-base sm:text-lg">
-            Fast-paced combat, deep progression, and a living sci-fi world. Pre-order now and get the exclusive{" "}
-            <span className="text-red-400 font-semibold">Founder's Pack</span>.
+          <p className="mt-5 text-slate-300 max-w-md sm:max-w-lg text-base sm:text-lg leading-relaxed">
+            Experience nonstop excitement with{" "}
+            <span className="text-red-400 font-semibold">BG678</span> — the home of rewards, thrill, and instant wins!
+          </p>
+
+          <p className="mt-3 text-slate-400 max-w-md sm:max-w-lg text-sm sm:text-base">
+            Spin, play, and win real cash every day. Join thousands of active players now!
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center md:justify-start">
-           <a
-  href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-red-600 px-6 py-3 rounded-lg text-white font-semibold shadow-lg hover:bg-red-700 transition w-full sm:w-auto text-center"
->
-  Play Now
-</a>
+            <a
+              href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-red-600 px-7 py-2.5 rounded-lg text-white font-semibold shadow-lg hover:bg-red-700 transition w-full sm:w-auto text-center text-sm sm:text-base"
+            >
+              🎯 Play Now
+            </a>
 
+            <a
+              href="/videos/video.mp4"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-red-500 px-7 py-2.5 rounded-lg text-white font-semibold hover:bg-red-500 hover:text-black transition text-center w-full sm:w-auto text-sm sm:text-base"
+            >
+              ▶ Watch Demo
+            </a>
+          </div>
 
-<a
-  href="/videos/video.mp4"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="border border-red-500 px-6 py-3 rounded-lg text-white font-semibold hover:bg-red-500 transition text-center w-full sm:w-auto"
->
-  Watch Video
-</a>
-
-
+          {/* 🔥 Attention Bar */}
+          <div className="mt-5 bg-gradient-to-r from-red-600 via-yellow-500 to-red-600 text-black font-semibold text-center py-1.5 px-5 rounded-full shadow-md animate-pulse text-xs sm:text-sm max-w-md sm:max-w-lg mx-auto md:mx-0">
+            🚨 <span className="text-white">365 Days of Cash Drops</span> — Join & Win Instantly!
           </div>
         </div>
 
         {/* Right slider */}
-        <div className="w-full md:w-1/2 max-w-full max-h-[450px] sm:max-h-[500px] lg:max-h-[600px]">
+        <div className="w-full md:w-1/2 max-w-full max-h-[430px] sm:max-h-[480px] lg:max-h-[560px]">
           <Slider {...settings}>
             {sliderImages.map((src, index) => (
               <div key={index} className="w-full flex justify-center items-center">
                 <Image
                   src={src}
                   alt={`Game Screenshot ${index + 1}`}
-                  width={1600}
-                  height={900}
-                  className="object-contain w-full h-auto sm:rounded-2xl shadow-2xl border border-slate-800"
+                  width={800}
+                  height={500}
+                  className="object-contain w-full max-w-4xl h-auto sm:rounded-2xl shadow-2xl border border-slate-800"
                   priority
                 />
               </div>

@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
               <IoGameControllerOutline className="w-8 h-8 text-red-500 transition-transform duration-300 group-hover:rotate-12 group-hover:scale-110" />
               <span className="text-[1.9rem] font-extrabold tracking-wide">
                 <span className="text-red-500 group-hover:text-red-400 transition-colors duration-200">
-                  bg
+                  BG
                 </span>
                 <span className="text-white">678</span>
               </span>
