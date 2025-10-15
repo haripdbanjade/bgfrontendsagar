@@ -2,20 +2,15 @@
 
 import Image from "next/image";
 import Slider from "react-slick";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useEffect, useState } from "react";
 
-import { Volume2Icon } from "lucide-react";
-
 export default function Hero() {
   const sliderImages = [
-    "/images/41.jpg",
-    "/images/51.jpg",
-    "/images/31.jpg",
-    "/images/61.jpg",
-    "/images/71.jpg",
+    "/images/B001.png",
+    "/images/B002.png",
+    "/images/B003.png",
   ];
 
   const fakeWins = [
@@ -49,18 +44,18 @@ export default function Hero() {
   }, [fakeWins.length]);
 
   return (
-    <header className="pt-10 pb-16 bg-slate-900 to-black relative overflow-hidden px-6 sm:px-8">
-     
-   
-<div className="w-[96%] mx-auto mt-3 flex items-center justify-center rounded-full bg-slate-900 shadow-lg overflow-hidden border border-yellow-600">
-  <div className="flex-1 bg-slate-900 py-1.5 px-3">
-    <p className="text-[13px] sm:text-sm text-emerald-50 whitespace-nowrap overflow-hidden animate-marquee font-medium tracking-wide">
-      We've recently received feedback from users that some domains are inaccessible. We've implemented optimizations to fix this issue.
-    </p>
-  </div>
+    <header className="pt-10 pb-16 bg-gradient-to-b from-slate-900 to-black relative overflow-hidden px-6 sm:px-8">
+      
+      {/* Notice Bar */}
+      <div className="w-[96%] mx-auto mt-3 flex items-center justify-center rounded-full bg-slate-900 shadow-lg overflow-hidden border border-yellow-600">
+        <div className="flex-1 bg-slate-900 py-1.5 px-3">
+          <p className="text-[13px] sm:text-sm text-emerald-50 whitespace-nowrap overflow-hidden animate-marquee font-medium tracking-wide">
+            We've recently received feedback from users that some domains are inaccessible. We've implemented optimizations to fix this issue.
+          </p>
+        </div>
+      </div>
 
-
-</div>
+      {/* Fake Wins */}
       <div className="mx-auto max-w-3xl mt-8 mb-10 flex justify-center">
         <div className="bg-slate-800 border border-slate-700 text-white px-5 py-2.5 rounded-full text-xs sm:text-sm flex flex-wrap gap-2 justify-center items-center shadow-md animate-fade-in-out transition-all duration-500">
           <span className="text-yellow-400 font-semibold">{fakeWins[currentWin].name}</span>
@@ -70,10 +65,10 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* 🧠 Main Hero Content */}
+      {/* Main Hero Content */}
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-16">
         
-        {/* Left content */}
+        {/* Left Side */}
         <div className="w-full md:w-1/2 text-center md:text-left flex flex-col items-center md:items-start">
           <h1 className="text-5xl sm:text-6xl font-extrabold leading-tight tracking-wide">
             <span className="text-red-600">BG</span>
@@ -109,29 +104,31 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* 🔥 Attention Bar */}
+          {/* Attention Bar */}
           <div className="mt-5 bg-gradient-to-r from-red-600 via-yellow-500 to-red-600 text-black font-semibold text-center py-1.5 px-5 rounded-full shadow-md animate-pulse text-xs sm:text-sm max-w-md sm:max-w-lg mx-auto md:mx-0">
             🚨 <span className="text-white">365 Days of Cash Drops</span> — Join & Win Instantly!
           </div>
         </div>
 
-        {/* Right slider */}
-        <div className="w-full md:w-1/2 max-w-full max-h-[430px] sm:max-h-[480px] lg:max-h-[560px]">
-          <Slider {...settings}>
-            {sliderImages.map((src, index) => (
-              <div key={index} className="w-full flex justify-center items-center">
-                <Image
-                  src={src}
-                  alt={`Game Screenshot ${index + 1}`}
-                  width={800}
-                  height={500}
-                  className="object-contain w-full max-w-4xl h-auto sm:rounded-2xl shadow-2xl border border-slate-800"
-                  priority
-                />
-              </div>
-            ))}
-          </Slider>
+<div className="w-full md:w-1/2">
+  <Slider {...settings}>
+    {sliderImages.map((src, index) => (
+      <div key={index} className="w-full flex justify-center items-center">
+        {/* Aspect ratio container */}
+        <div className="relative w-full h-120 pb-[56.25%] sm:pb-[50%] lg:pb-[45%]">
+          <Image
+            src={src}
+            alt={`Game Screenshot ${index + 1}`}
+            fill
+            className="object-contain sm:rounded-2xl shadow-2xl"
+            priority
+          />
         </div>
+      </div>
+    ))}
+  </Slider>
+</div>
+
       </div>
     </header>
   );
