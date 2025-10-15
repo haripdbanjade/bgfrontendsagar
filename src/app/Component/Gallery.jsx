@@ -63,7 +63,7 @@ export default function LiveAndGallery() {
     if (!container) return;
 
     let scrollY = 0;
-    const speed = 2;
+    const speed = 1;
     let frame;
 
     const step = () => {
