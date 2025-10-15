@@ -33,7 +33,7 @@ export default function About() {
 
                     <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-6">
                         <a
-                            href="mailto:contact@bg678.com"
+                            href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
                             className="px-6 py-3 bg-red-600 hover:bg-red-500 rounded-lg font-semibold transition"
                         >
                             Email Us
