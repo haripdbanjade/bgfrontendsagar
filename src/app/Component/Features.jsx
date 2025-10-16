@@ -26,7 +26,7 @@ const Top = () => {
   };
 
   return (
-    <div className="bg-[#050A18] min-h-screen px-6 py-12 text-white">
+    <div className="bg-[#050A18] h-min-screen px-6 py-12 text-white">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 border-l-4 border-red-500 pl-3">
           Top Earning Games

@@ -44,9 +44,9 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
           <ul className="space-y-2 text-sm text-gray-400">
-            <li>Butwal, Rupandehi, Nepal</li>
-            <li>+977 9742365415</li>
-            <li>hello@example.com</li>
+            <li>Buspark, Newdehli, India</li>
+        
+            <li>bg678@gmail.com</li>
           </ul>
         </div>
 
@@ -75,17 +75,19 @@ export default function Footer() {
       </div>
 
       {/* Embedded Map */}
-      <div className="rounded-lg overflow-hidden shadow-xl mb-10 border border-gray-800">
-        <div className="relative w-full pb-[56.25%] h-0">
-          <iframe
-            title="Butwal Map"
-            className="absolute top-0 left-0 w-full h-full border-none"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3531.1361654225306!2d83.44580511506225!3d27.671732382801923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39968508cdf97a43%3A0xb6e4cc06f7cbd652!2sButwal%2C%20Nepal!5e0!3m2!1sen!2snp!4v1696488983541!5m2!1sen!2snp"
-            allowFullScreen=""
-            loading="lazy"
-          ></iframe>
-        </div>
-      </div>
+      {/* Embedded Map */}
+<div className="rounded-lg overflow-hidden shadow-xl mb-10 border border-gray-800">
+  <div className="relative w-full pb-[56.25%] h-0">
+    <iframe
+      title="New Delhi Map"
+      className="absolute top-0 left-0 w-full h-full border-none"
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.566937134264!2d77.22072301508698!3d28.635308482418112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce22c8b1353b1%3A0x1f9d007d6f3e06cb!2sNew%20Delhi%2C%20Delhi%2C%20India!5e0!3m2!1sen!2snp!4v1696494522687!5m2!1sen!2snp"
+      allowFullScreen=""
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
 
       {/* Bottom Socials & Copyright */}
       <div className="border-t border-gray-700 pt-6 text-center text-sm text-gray-400">

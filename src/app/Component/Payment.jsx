@@ -3,10 +3,8 @@ import Image from "next/image";
 
 export default function PaymentLicense() {
   return (
-    <section className="bg-[#0b0e15] py-12 px-4">
+    <section className="bg-[#0b0e15] py-12 px-4 -mt-10">
       <div className="max-w-7xl mx-auto bg-[#111827] rounded-xl border border-gray-700 p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-10">
-        
-     
         <div>
     
           <h3 className="text-white text-lg font-semibold mb-4">Payment Method</h3>

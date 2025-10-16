@@ -30,29 +30,30 @@ export default function Fea() {
   ];
 
   return (
-    <section className="bg-[#0b0e15] text-white py-16 px-4">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
-          Your Path to <span className="text-[#ef0d0dff]">Winning</span>
-        </h2>
+  <section className="bg-[#0b0e15] text-white py-28 px-4 -mt-10">
+  <div className="max-w-7xl mx-auto">
+    <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+      Your Path to <span className="text-[#ef0d0dff]">Winning</span>
+    </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="bg-[#111827] rounded-xl p-6 text-center border border-gray-700 hover:shadow-[#ef0d0dff]/30 hover:shadow-md transition"
-            >
-              <div className="mb-4 mx-auto w-14 h-14 flex items-center justify-center bg-[#1f2937] rounded-full">
-                {feature.icon}
-              </div>
-              <h3 className="text-lg font-semibold text-[#ef0d0dff] mb-2">
-                {feature.title}
-              </h3>
-              <p className="text-sm text-slate-300">{feature.description}</p>
-            </div>
-          ))}
+    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
+      {features.map((feature, index) => (
+        <div
+          key={index}
+          className="bg-[#111827] rounded-xl p-10 text-center border border-gray-700 hover:shadow-[#ef0d0dff]/40 hover:shadow-md transition"
+        >
+          <div className="mb-6 mx-auto w-20 h-20 flex items-center justify-center bg-[#1f2937] rounded-full">
+            {feature.icon}
+          </div>
+          <h3 className="text-xl font-semibold text-[#ef0d0dff] mb-4">
+            {feature.title}
+          </h3>
+          <p className="text-base text-slate-300 leading-relaxed">{feature.description}</p>
         </div>
-      </div>
-    </section>
+      ))}
+    </div>
+  </div>
+</section>
+
   );
 }
