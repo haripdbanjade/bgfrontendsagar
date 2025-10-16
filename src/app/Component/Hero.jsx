@@ -105,7 +105,7 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Attention Bar */}
+     
         <div className="mt-3 bg-gradient-to-r from-red-600 via-yellow-500 to-red-600 text-black font-medium text-center py-2 px-4 rounded-full shadow-md animate-pulse text-xs max-w-[240px] sm:max-w-[280px] mx-auto md:mx-0">
   🚨 <span className="text-white">365 Days of Cash Drops</span> — Join & Win Instantly!
 </div>
