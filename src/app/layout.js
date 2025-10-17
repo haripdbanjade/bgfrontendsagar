@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
               <button
                 onClick={() =>
                   window.open(
-                    'https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017',
+                    'https://www.bg678p.com/#/pages/login/register?invitationCode=7179460482',
                     '_blank'
                   )
                 }
@@ -123,7 +123,8 @@ export default function RootLayout({ children }) {
               <button
                 onClick={() =>
                   window.open(
-                    'https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017',
+                    'https://www.bg678p.com/#/pages/login/register?invitationCode=7179460482',
+                    
                     '_blank'
                   )
                 }

@@ -22,7 +22,7 @@ const Top = () => {
   const router = useRouter();
 
   const handleGameClick = () => {
-    window.location.href = 'https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017';
+    window.location.href = 'https://www.bg678p.com/#/pages/login/register?invitationCode=7179460482';
   };
 
   return (

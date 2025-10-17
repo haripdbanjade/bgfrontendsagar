@@ -93,7 +93,7 @@ export default function SpinWheel() {
 
               {!["Try Again", "Free Spin"].includes(result) && (
                 <a
-                  href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
+                  href="https://www.bg678p.com/#/pages/login/register?invitationCode=71794604827"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mt-2 inline-block bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg px-4 py-2 shadow transition duration-300 w-full max-w-xs text-center text-sm"

@@ -56,7 +56,7 @@ export default function Hero() {
       {/* Fake Win Notification (Clickable) */}
       <div className="mx-auto max-w-3xl mt-6 mb-8 flex justify-center">
         <a
-          href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
+          href="https://www.bg678p.com/#/pages/login/register?invitationCode=7179460482"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-slate-800 border border-slate-700 text-white px-5 py-2 rounded-full text-[12px] sm:text-sm flex flex-wrap gap-2 justify-center items-center shadow-md animate-fade-in-out transition-all duration-500 hover:bg-slate-700 cursor-pointer"
@@ -87,7 +87,7 @@ export default function Hero() {
 
           <div className="mt-6 flex flex-col sm:flex-row gap-4 w-full sm:w-auto justify-center md:justify-start">
             <a
-              href="https://www.bg678p.com/#/pages/login/register?invitationCode=5097269017"
+              href="https://www.bg678p.com/#/pages/login/register?invitationCode=7179460482"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-red-600 px-6 py-2.5 rounded-lg text-white font-semibold shadow-lg hover:bg-red-700 transition w-full sm:w-auto text-center text-base sm:text-lg"
