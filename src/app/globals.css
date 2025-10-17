@@ -12,7 +12,7 @@
 
 .animate-marquee {
   display: inline-block;
-  animation: marquee 15s linear infinite;
+  animation: marquee 50s linear infinite;
 }
 
 @theme inline {
@@ -39,5 +39,5 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 .animate-fadeIn {
-  animation: fadeIn 0.5s ease-in-out;
+  animation: fadeIn 0.2ms ease-in-out;
 }
