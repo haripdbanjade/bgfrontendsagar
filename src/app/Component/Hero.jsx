@@ -43,15 +43,31 @@ export default function Hero() {
     <header className="pt-10 pb-16 bg-gradient-to-b from-slate-900 to-black relative overflow-hidden px-4 sm:px-6">
 
       {/* Marquee */}
-      <div className="w-[85%] mx-auto mt-2 flex items-center justify-center rounded-full bg-slate-900 shadow-md border border-yellow-500 overflow-hidden h-8">
-        <div className="flex whitespace-nowrap animate-marquee">
-          {[...Array(5)].map((_, i) => (
-            <span key={i} className="text-[12px] sm:text-[14px] text-emerald-50 font-medium tracking-wide px-4">
-              ⚡ Gaming isn’t just about fun anymore — it’s a real opportunity to earn! &nbsp;&nbsp;&nbsp;
-            </span>
-          ))}
-        </div>
-      </div>
+     <div className="w-[85%] mx-auto mt-2 flex items-center justify-center rounded-full bg-slate-900 shadow-md border border-yellow-500 overflow-hidden h-8">
+  <div className="relative flex w-full overflow-hidden">
+    <div className="flex animate-marquee whitespace-nowrap">
+      {[...Array(5)].map((_, i) => (
+        <span
+          key={i}
+          className="text-[12px] sm:text-[14px] text-emerald-50 font-medium tracking-wide px-4"
+        >
+          ⚡ Gaming isn’t just about fun anymore — it’s a real opportunity to earn! &nbsp;&nbsp;&nbsp;
+        </span>
+      ))}
+    </div>
+    <div className="flex absolute top-0 animate-marquee2 whitespace-nowrap">
+      {[...Array(5)].map((_, i) => (
+        <span
+          key={`copy-${i}`}
+          className="text-[12px] sm:text-[14px] text-emerald-50 font-medium tracking-wide px-4"
+        >
+          ⚡ Gaming isn’t just about fun anymore — it’s a real opportunity to earn! &nbsp;&nbsp;&nbsp;
+        </span>
+      ))}
+    </div>
+  </div>
+</div>
+
 
       {/* Fake Win Notification (Clickable) */}
       <div className="mx-auto max-w-3xl mt-6 mb-8 flex justify-center">
